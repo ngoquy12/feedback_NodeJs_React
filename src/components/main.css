@@ -1,0 +1,135 @@
+.main {
+  height: calc(100vh - 70px);
+  background-color: #1d1c38;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.main-header {
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 30px;
+}
+
+.form-header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.form-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.active {
+  background-color: pink;
+  color: #fff;
+}
+
+.form-input {
+  border: 1px solid #dadada;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-input input {
+  border: none;
+  outline: none;
+  height: 36px;
+  width: 80%;
+}
+
+.form-input button {
+  height: 36px;
+  min-width: 100px;
+  background-color: #1d1c38;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-input button:hover {
+  opacity: 0.8;
+}
+
+.review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 100px;
+}
+
+.feedback-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.feedback {
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.feedback-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.feedback-header-right {
+  display: flex;
+  gap: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+.point {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: pink;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: -8px;
+  left: -10px;
+}
+
+.feedback-body {
+  padding: 20px;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
